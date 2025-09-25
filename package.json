@@ -1,7 +1,10 @@
 {
   "name": "koishi-plugin-booth-get",
-  "description": "通过url检查摊位并反馈用户搜索的图片",
-  "version": "0.0.1",
+  "description": "通过url与名称检查摊位物品并反馈用户搜索的图片",
+  "version": "5.2.9",
+  "contributors": [
+    "rixiang <1148147857@qq.com>"
+  ],
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
   "files": [
@@ -9,19 +12,33 @@
     "dist"
   ],
   "license": "MIT",
-  "scripts": {},
+  "homepage": "https://www.npmjs.com/package/koishi-plugin-booth-get",
+  "repository": {
+    "type": "npm",
+    "url": "npm i koishi-plugin-booth-get"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "echo \"No build script specified\"",
+    "pub": "npm publish"
+  },
   "keywords": [
     "chatbot",
     "koishi",
-    "plugin"
+    "plugin",
+    "booth",
+    "pngjs",
+    "puppeteer",
+    "qrcode"
   ],
   "peerDependencies": {
-    "koishi": "4.17.9"
+    "koishi": "4.18.9"
   },
   "dependencies": {
     "atsc": "^2.1.0",
-    "koishi-plugin-puppeteer": "^3.8.4",
+    "koishi-plugin-puppeteer": "^3.9.0",
+    "list": "^2.0.19",
     "pngjs": "^7.0.0",
-    "puppeteer-core": "^22.12.1"
+    "puppeteer-core": "^24.17.1"
   }
 }
