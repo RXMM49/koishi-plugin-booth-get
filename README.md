@@ -30,21 +30,6 @@
 ![BOOTH卡片模板](https://github.com/Unbloomed-flowers/koishi-plugin-booth-get/blob/main/BOOTH模板.png?raw=true)
 
 
----
-
-## 配置
-
-| 配置项 | 类型 | 默认值 | 说明 |
-|--------|------|--------|------|
-| `enableR18Check` | boolean | true | R18 内容过滤 |
-| `updateInterval` | number | 30 | 订阅检测间隔（分钟） |
-| `enableDiscountTracking` | boolean | true | 折扣追踪 |
-| `discountCheckInterval` | number | 60 | 折扣检测间隔（分钟） |
-| `enableDiscordCommands` | boolean | false | Discord 命令模式 |
-| `cardWidth` | number | 900 | 卡片宽度（px） |
-
----
-
 ## 安装
 
 ```bash
