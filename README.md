@@ -29,12 +29,11 @@
 
 ![BOOTH卡片模板](https://github.com/Unbloomed-flowers/koishi-plugin-booth-get/blob/main/BOOTH模板.png?raw=true)
 
+## 许可证
+
+MIT License
 
 ## 安装
 
 ```bash
 npm install koishi-plugin-booth-get
-
-## 许可证
-
-MIT License
