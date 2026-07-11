@@ -27,7 +27,7 @@
 
 **自动解析**：发送 BOOTH 链接自动生成卡片预览。
 
-![Uploading BOOTH模板.png…]()
+![BOOTH卡片模板](https://github.com/Unbloomed-flowers/koishi-plugin-booth-get/blob/main/BOOTH模板.png?raw=true)
 
 
 ---
