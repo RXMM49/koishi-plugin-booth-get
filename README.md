@@ -47,6 +47,7 @@
 
 ## 安装
 
+```bash
 npm install koishi-plugin-booth-get
 
 ## 许可证
